@@ -1,0 +1,25 @@
+{
+  "name": "node-js-tutorial",
+  "version": "1.0.0",
+  "description": "Node Js and Express JS",
+  "main": "coreModules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanAmbekar02/Node-Js-Express-Js.git"
+  },
+  "keywords": [
+    "Shree"
+  ],
+  "author": "Rohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohanAmbekar02/Node-Js-Express-Js/issues"
+  },
+  "homepage": "https://github.com/RohanAmbekar02/Node-Js-Express-Js#readme",
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}

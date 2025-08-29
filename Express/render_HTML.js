@@ -17,12 +17,18 @@ app.get('/contact' , (req ,res) =>{
 })
 
 app.get('/about' , (req ,res) =>{
-   res.send([
+   res.send(
+ 
+      [
             { name :"Rohan"  , city : "Pune"},
             { name :"Sanika"  , city : "Mumbai"},
             { name :"Srushti"  , city : "Nagpur"},
             { name :"Nandu"  , city : "Delhi"}
+
+            
    ])
+   
+
 })
 
 app.listen(2003 , () => {

@@ -11,5 +11,6 @@ http.createServer((request , response) =>  {
     //         { name: 'Nitya', age: 26, city: 'Pune' },
     //     ]
     // ));
+    
 response.end(JSON.stringify(data));
 }).listen(2004);

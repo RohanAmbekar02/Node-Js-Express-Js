@@ -8,7 +8,7 @@ const app = route();
 // })
 
 // request 
-app.get('/', (req ,res) => {
+app.get('', (req ,res) => {
     const name = req.query.name;
     if(name){
         res.send(`Hello ${name} Welcome to My Website`);
@@ -21,6 +21,9 @@ app.get('/', (req ,res) => {
 app.listen(2001 , () => {
     console.log("Server is running on port 2001");
 })
+
+
+
 
 
 
